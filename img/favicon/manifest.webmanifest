@@ -1,0 +1,11 @@
+{
+  "name": "Preztasi - Entertainment Event Management company",
+  "short_name": "Preztasi",
+  "icons": [
+    { "src": "/img/favicon/apple-touch-icon.png", "type": "image/png", "sizes": "192x192" },
+    { "src": "/img/favicon/apple-touch-icon.png", "type": "image/png", "sizes": "512x512" }
+  ],
+  "theme_color": "#efefef",
+  "background_color": "#efefef",
+  "display": "standalone"
+}
