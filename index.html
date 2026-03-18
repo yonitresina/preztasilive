@@ -1,525 +1,439 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <meta http-equiv="content-type" content="text/html;charset=utf-8" />
-  <head>
-    <meta charset="UTF-8" />
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
 
-    <!-- Page Title -->
-    <title>Preztasi Live</title>
+<head>
+  <meta charset="UTF-8" />
 
-    <!-- Meta Tags -->
-    <meta
-      name="description"
-      content="Preztasi - Entertainment Event Management company"
-    />
-    <meta
-      name="keywords"
-      content="entertainment, event management, event planning, gathering, music concerts"
-    />
-    <meta
-      property="og:image"
-      content="https://www.preztalive.com/img/og-image.jpg"
-    />
+  <!-- Page Title -->
+  <title>Preztasi Live</title>
 
-    <!-- Viewport Meta-->
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, maximum-scale=1"
-    />
+  <!-- Meta Tags -->
+  <meta name="description" content="Preztasi - Entertainment Event Management company" />
+  <meta name="keywords" content="entertainment, event management, event planning, gathering, music concerts" />
+  <meta property="og:image" content="https://www.preztalive.com/img/og-image.jpg" />
 
-    <!-- Template Favicon & Icons Start -->
-    <link rel="icon" href="img/favicon/favicon.ico" sizes="any" />
-    <link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png" />
-    <link rel="manifest" href="img/favicon/manifest.webmanifest" />
-    <!-- Template Favicon & Icons End -->
+  <!-- Viewport Meta-->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 
-    <!-- Facebook Metadata Start -->
-    <meta property="og:image:height" content="1200" />
-    <meta property="og:image:width" content="1200" />
-    <meta property="og:title" content="Preztasi Live" />
-    <meta
-      property="og:description"
-      content="Preztasi - Entertainment Event Management company"
-    />
-    <meta property="og:url" content="https://preztasilive.com" />
-    <meta property="og:image" content="img/og-image.jpg" />
-    <!-- Facebook Metadata End -->
+  <!-- Template Favicon & Icons Start -->
+  <link rel="icon" href="img/favicon/favicon.ico" sizes="any" />
+  <link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png" />
+  <link rel="manifest" href="img/favicon/manifest.webmanifest" />
+  <!-- Template Favicon & Icons End -->
 
-    <!-- Template Styles Start -->
-    <link rel="stylesheet" type="text/css" href="css/loaders/loader.css" />
-    <link rel="stylesheet" type="text/css" href="css/plugins.css" />
-    <link rel="stylesheet" type="text/css" href="css/main.css" />
-    <!-- Template Styles End -->
+  <!-- Facebook Metadata Start -->
+  <meta property="og:image:height" content="1200" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:title" content="Preztasi Live" />
+  <meta property="og:description" content="Preztasi - Entertainment Event Management company" />
+  <meta property="og:url" content="https://preztasilive.com" />
+  <meta property="og:image" content="img/og-image.jpg" />
+  <!-- Facebook Metadata End -->
 
-    <!-- Custom Browser Color Start -->
-    <meta
-      name="theme-color"
-      media="(prefers-color-scheme: light)"
-      content="#BABEC8"
-    />
-    <meta
-      name="theme-color"
-      media="(prefers-color-scheme: dark)"
-      content="#141414"
-    />
-    <meta name="msapplication-navbutton-color" content="#141414" />
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta
-      name="apple-mobile-web-app-status-bar-style"
-      content="black-translucent"
-    />
-    <!-- Custom Browser Color End -->
+  <!-- Template Styles Start -->
+  <link rel="stylesheet" type="text/css" href="css/loaders/loader.css" />
+  <link rel="stylesheet" type="text/css" href="css/plugins.css" />
+  <link rel="stylesheet" type="text/css" href="css/main.css" />
+  <!-- Template Styles End -->
 
-    <!-- Additional Style -->
-    <style>
-      sup {
-        font-size: smaller;
-        vertical-align: super;
-      }
-      .logo-live img {
-        width: 155px;
-        background-color: rgba(186, 190, 200, 1);
-      }
-      .button-3d {
-        margin: auto;
-        position: relative;
-        box-shadow: 5px 5px 5px #848283;
-        transition: all 0.3s ease;
-      }
-      .button-3d:hover {
-        box-shadow: 0px 2px 20px #6f6e6e;
-        top: 3px;
-      }
-      .button-3d:active {
-        box-shadow: none;
-        top: 5px;
-      }
-      .cards-image-01 {
-        width: 200px;
-        padding: 20px;
-      }
-    </style>
-    <!-- Additional Style End-->
-  </head>
+  <!-- Custom Browser Color Start -->
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#BABEC8" />
+  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#141414" />
+  <meta name="msapplication-navbutton-color" content="#141414" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <!-- Custom Browser Color End -->
 
-  <body>
-    <!-- Loader Start -->
-    <div id="loader" class="loader">
-      <div class="loader__wrapper">
-        <div class="loader__content">
-          <div class="loader__count">
-            <span class="count__text">0</span>
-            <span class="count__percent">%</span>
-          </div>
+  <!-- Additional Style -->
+  <style>
+    sup {
+      font-size: smaller;
+      vertical-align: super;
+    }
+
+    .logo-live img {
+      width: 155px;
+      background-color: rgba(186, 190, 200, 1);
+    }
+
+    .button-3d {
+      margin: auto;
+      position: relative;
+      box-shadow: 5px 5px 5px #848283;
+      transition: all 0.3s ease;
+    }
+
+    .button-3d:hover {
+      box-shadow: 0px 2px 20px #6f6e6e;
+      top: 3px;
+    }
+
+    .button-3d:active {
+      box-shadow: none;
+      top: 5px;
+    }
+
+    .cards-image-01 {
+      width: 200px;
+      padding: 20px;
+    }
+  </style>
+  <!-- Additional Style End-->
+</head>
+
+<body>
+  <!-- Loader Start -->
+  <div id="loader" class="loader">
+    <div class="loader__wrapper">
+      <div class="loader__content">
+        <div class="loader__count">
+          <span class="count__text">0</span>
+          <span class="count__percent">%</span>
         </div>
       </div>
     </div>
-    <!-- Loader End -->
+  </div>
+  <!-- Loader End -->
 
-    <!-- Header Start -->
-    <header
-      id="header"
-      class="header d-flex justify-content-center loading__fade"
-    >
-      <!-- Navigation Menu Start -->
-      <div class="header__navigation d-flex justify-content-start">
-        <nav id="menu" class="menu">
-          <ul class="menu__list d-flex justify-content-start">
-            <li class="menu__item">
-              <a class="menu__link btn" href="#home">
-                <span class="menu__caption">Home</span>
-                <i class="ph ph-house-simple"></i>
-              </a>
-            </li>
-            <li class="menu__item">
-              <a class="menu__link btn" href="#portfolio">
-                <span class="menu__caption">Portfolio</span>
-                <i class="ph ph-squares-four"></i>
-              </a>
-            </li>
-            <li class="menu__item">
-              <a class="menu__link btn" href="#about">
-                <span class="menu__caption">About Us</span>
-                <i class="ph ph-users"></i>
-              </a>
-            </li>
-            <li class="menu__item">
-              <a class="menu__link btn" href="#services">
-                <span class="menu__caption">Services</span>
-                <i class="ph ph-sticker"></i>
-              </a>
-            </li>
-            <li class="menu__item">
-              <a class="menu__link btn" href="#projects">
-                <span class="menu__caption">Projects</span>
-                <i class="ph ph-article"></i>
-              </a>
-            </li>
-            <li class="menu__item">
-              <a class="menu__link btn" href="#contact">
-                <span class="menu__caption">Contact</span>
-                <i class="ph ph-envelope"></i>
-              </a>
-            </li>
-          </ul>
-        </nav>
+  <!-- Header Start -->
+  <header id="header" class="header d-flex justify-content-center loading__fade">
+    <!-- Navigation Menu Start -->
+    <div class="header__navigation d-flex justify-content-start">
+      <nav id="menu" class="menu">
+        <ul class="menu__list d-flex justify-content-start">
+          <li class="menu__item">
+            <a class="menu__link btn" href="#home">
+              <span class="menu__caption">Home</span>
+              <i class="ph ph-house-simple"></i>
+            </a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link btn" href="#portfolio">
+              <span class="menu__caption">Portfolio</span>
+              <i class="ph ph-squares-four"></i>
+            </a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link btn" href="#about">
+              <span class="menu__caption">About Us</span>
+              <i class="ph ph-users"></i>
+            </a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link btn" href="#services">
+              <span class="menu__caption">Services</span>
+              <i class="ph ph-sticker"></i>
+            </a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link btn" href="#projects">
+              <span class="menu__caption">Projects</span>
+              <i class="ph ph-article"></i>
+            </a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link btn" href="#contact">
+              <span class="menu__caption">Contact</span>
+              <i class="ph ph-envelope"></i>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <!-- Navigation Menu End -->
+  </header>
+  <!-- Header End -->
+
+  <!-- Fixed Logo Start -->
+  <div class="logo loading__fade logo-live">
+    <a href="#home" class="logo__link">
+      <!-- logo icon -->
+      <img src="img/logo-live.png" alt="logo" />
+      <!-- logo text -->
+      <!-- <span class="logo-text">Preztasi</span> -->
+    </a>
+  </div>
+  <!-- Fixed Logo End -->
+
+  <!-- Fixed Color Switch Start -->
+  <div class="color loading__fade">
+    <button id="color-switcher" class="color-switcher" type="button" role="switch" aria-label="light/dark mode"
+      aria-checked="true"></button>
+  </div>
+  <!-- Fixed Color Switch End -->
+
+  <!-- Page Content Start -->
+  <main id="page-content" class="page-content">
+    <!-- Main Section Start -->
+    <section id="home" class="main home">
+      <!-- Main Section Intro Start -->
+      <div class="main__intro intro-95-desktop">
+        <!-- Intro Background Start -->
+        <div class="intro__background intro-bg-02">
+          <div class="intro-bg-02__01" data-speed="0.6">
+            <img src="img/backgrounds/1200x1200_bg03.webp" alt="Decorative Image" />
+          </div>
+          <div class="intro-bg-02__02" data-speed="0.8">
+            <img src="img/backgrounds/1200x1553_bg04.webp" alt="Decorative Image" />
+          </div>
+        </div>
+        <!-- Intro Background End -->
+
+        <div class="container-fluid p-0 fullheight-desktop">
+          <div class="row g-0 fullheight-desktop align-items-xl-stretch">
+            <!-- Intro Data Line #1 (if needed) Start -->
+            <div class="col-12 col-xl-2"></div>
+            <!-- Intro Data Line #1 (if needed) End -->
+
+            <!-- Intro Content Start -->
+            <div class="col-12 col-xl-8 fullheight-desktop">
+              <!-- Headline Start -->
+              <div id="headline" class="headline headline-95-desktop d-flex align-items-start flex-column loading-wrap">
+                <h1 class="headline__title loading__item">
+                  Curate, Promote, Show
+                </h1>
+                <p class="headline__subtitle space-top animated-type loading__item">
+                  Welcome to the Gate of Memorable Experience <br />
+                  A full service agency for Festivals, Brands, <br />
+                  Artists and many more
+                </p>
+              </div>
+              <!-- Headline End -->
+            </div>
+            <!-- Intro Content End -->
+
+            <!-- Intro Data Line #2 (if needed) Start -->
+            <div class="col-12 col-xl-2"></div>
+            <!-- Intro Data Line #2 (if needed) End -->
+          </div>
+        </div>
       </div>
-      <!-- Navigation Menu End -->
-    </header>
-    <!-- Header End -->
+      <!-- Main Section Intro End -->
 
-    <!-- Fixed Logo Start -->
-    <div class="logo loading__fade logo-live">
-      <a href="#home" class="logo__link">
-        <!-- logo icon -->
-        <img src="img/logo-live.png" alt="logo" />
-        <!-- logo text -->
-        <!-- <span class="logo-text">Preztasi</span> -->
-      </a>
-    </div>
-    <!-- Fixed Logo End -->
+      <!-- Main Section Media Start -->
+      <div class="main__media media-stack-bottom">
+        <div class="container-fluid p-0">
+          <div class="row g-0">
+            <!-- Media Data Line #1 (if needed) Start -->
+            <div class="col-12 col-xl-2"></div>
+            <!-- Media Data Line #1 (if needed) End -->
 
-    <!-- Fixed Color Switch Start -->
-    <div class="color loading__fade">
-      <button
-        id="color-switcher"
-        class="color-switcher"
-        type="button"
-        role="switch"
-        aria-label="light/dark mode"
-        aria-checked="true"
-      ></button>
-    </div>
-    <!-- Fixed Color Switch End -->
+            <!-- Media Content Start -->
+            <div class="col-12 col-xl-8">
+              <!-- Content Block - About Me Data Start -->
+              <div class="content__block grid-block pre-grid-items">
+                <div class="container-fluid p-0">
+                  <div class="row g-0">
+                    <div class="col-12 col-md-8 col-lg-7 col-xxl-8 grid-item about-descr pre-title">
+                      <img src="img/backgrounds/1080x1080-banner.webp" style="border-radius: 15px" />
+                    </div>
 
-    <!-- Page Content Start -->
-    <main id="page-content" class="page-content">
-      <!-- Main Section Start -->
-      <section id="home" class="main home">
-        <!-- Main Section Intro Start -->
-        <div class="main__intro intro-95-desktop">
-          <!-- Intro Background Start -->
-          <div class="intro__background intro-bg-02">
-            <div class="intro-bg-02__01" data-speed="0.6">
-              <img
-                src="img/backgrounds/1200x1200_bg03.webp"
-                alt="Decorative Image"
-              />
-            </div>
-            <div class="intro-bg-02__02" data-speed="0.8">
-              <img
-                src="img/backgrounds/1200x1553_bg04.webp"
-                alt="Decorative Image"
-              />
-            </div>
-          </div>
-          <!-- Intro Background End -->
-
-          <div class="container-fluid p-0 fullheight-desktop">
-            <div class="row g-0 fullheight-desktop align-items-xl-stretch">
-              <!-- Intro Data Line #1 (if needed) Start -->
-              <div class="col-12 col-xl-2"></div>
-              <!-- Intro Data Line #1 (if needed) End -->
-
-              <!-- Intro Content Start -->
-              <div class="col-12 col-xl-8 fullheight-desktop">
-                <!-- Headline Start -->
-                <div
-                  id="headline"
-                  class="headline headline-95-desktop d-flex align-items-start flex-column loading-wrap"
-                >
-                  <h1 class="headline__title loading__item">
-                    Curate, Promote, Show
-                  </h1>
-                  <p
-                    class="headline__subtitle space-top animated-type loading__item"
-                  >
-                    Welcome to the Gate of Memorable Experience <br />
-                    A full service agency for Festivals, Brands, <br />
-                    Artists and many more
-                  </p>
-                </div>
-                <!-- Headline End -->
-              </div>
-              <!-- Intro Content End -->
-
-              <!-- Intro Data Line #2 (if needed) Start -->
-              <div class="col-12 col-xl-2"></div>
-              <!-- Intro Data Line #2 (if needed) End -->
-            </div>
-          </div>
-        </div>
-        <!-- Main Section Intro End -->
-
-        <!-- Main Section Media Start -->
-        <div class="main__media media-stack-bottom">
-          <div class="container-fluid p-0">
-            <div class="row g-0">
-              <!-- Media Data Line #1 (if needed) Start -->
-              <div class="col-12 col-xl-2"></div>
-              <!-- Media Data Line #1 (if needed) End -->
-
-              <!-- Media Content Start -->
-              <div class="col-12 col-xl-8">
-                <!-- Content Block - About Me Data Start -->
-                <div class="content__block grid-block pre-grid-items">
-                  <div class="container-fluid p-0">
-                    <div class="row g-0">
-                      <div
-                        class="col-12 col-md-8 col-lg-7 col-xxl-8 grid-item about-descr pre-title"
-                      >
-                        <img
-                          src="img/backgrounds/1080x1080-banner.webp"
-                          style="border-radius: 15px"
-                        />
-                      </div>
-
-                      <div
-                        class="col-12 col-md-4 col-xxl-4 grid-item about-info pre-title text-center"
-                      >
-                        <h4 style="padding: 20px">
-                          What are you waiting for? <br />Get Minzy's ticket
-                          now!
-                        </h4>
-                        <a
-                          class="btn btn-circle-text hover-circle button-3d"
-                          href="https://minzynightout.com"
-                          target="_blank"
-                        >
-                          <!-- <em></em> -->
-                          <span class="btn-caption" style="font-size: x-large"
-                            >Buy Ticket</span
-                          >
-                        </a>
-                      </div>
+                    <div class="col-12 col-md-4 col-xxl-4 grid-item about-info pre-title text-center">
+                      <h4 style="padding: 20px">
+                        What are you waiting for? <br />Get Minzy's ticket
+                        now!
+                      </h4>
+                      <a class="btn btn-circle-text hover-circle button-3d" href="https://minzynightout.com"
+                        target="_blank">
+                        <!-- <em></em> -->
+                        <span class="btn-caption" style="font-size: x-large">Buy Ticket</span>
+                      </a>
                     </div>
                   </div>
                 </div>
-                <!-- Content Block - About Me Data End -->
+              </div>
+              <!-- Content Block - About Me Data End -->
 
-                <!-- Content Block - Blockquote Start -->
-                <div class="content__block pre-stack">
-                  <div class="container-fluid p-0">
-                    <div class="row g-0">
-                      <div class="col-12">
-                        <blockquote
-                          class="reveal-type animate-in-up text-center"
-                        >
-                          Here we must run as fast as we can, just to stay in
-                          place. <br />If you wish to go further you must run
-                          twice as fast as that.
-                        </blockquote>
-                      </div>
+              <!-- Content Block - Blockquote Start -->
+              <div class="content__block pre-stack">
+                <div class="container-fluid p-0">
+                  <div class="row g-0">
+                    <div class="col-12">
+                      <blockquote class="reveal-type animate-in-up text-center">
+                        Here we must run as fast as we can, just to stay in
+                        place. <br />If you wish to go further you must run
+                        twice as fast as that.
+                      </blockquote>
                     </div>
                   </div>
                 </div>
-
-                <!-- Content Block - Blockquote End -->
               </div>
-              <!-- Media Content End -->
 
-              <!-- Media Data Line #2 (if needed) Start -->
-              <div class="col-12 col-xl-2"></div>
-              <!-- Media Data Line #2 (if needed) End -->
+              <!-- Content Block - Blockquote End -->
             </div>
+            <!-- Media Content End -->
+
+            <!-- Media Data Line #2 (if needed) Start -->
+            <div class="col-12 col-xl-2"></div>
+            <!-- Media Data Line #2 (if needed) End -->
           </div>
         </div>
-        <!-- Main Section Media End -->
-      </section>
-      <!-- Main Section End -->
+      </div>
+      <!-- Main Section Media End -->
+    </section>
+    <!-- Main Section End -->
 
-      <!-- Inner Section - Portfolio - Start -->
-      <section
-        id="portfolio"
-        class="inner inner-stack-bottom no-padding-top portfolio"
-      >
-        <div class="inner__wrapper">
-          <div class="container-fluid p-0">
-            <div class="row g-0">
-              <!-- Inner Section Content Start -->
-              <div class="col-12">
-                <div class="inner__content">
-                  <!-- Content Block - Portfolio Stacking Cards Start -->
-                  <div class="content__block">
-                    <div class="stack-wrapper">
-                      <div class="stack-offset solid-block"></div>
-                      <div class="portfolio-stack">
-                        <!-- portfolio stack single item -->
-                        <div class="stack-item">
-                          <div
-                            data-mfp-src="#"
-                            class="portfolio-stack__inner portfolio-item-1 popup-trigger"
-                          >
-                            <div
-                              class="portfolio-stack__descr"
-                              style="width: 100%"
-                            >
-                              <h3 class="portfolio-stack__title light">
-                                Event Management
-                              </h3>
-                              <p
-                                class="portfolio-stack__text type-basic-160lh light"
-                              >
-                                Our team consist the best professionals and the
-                                chosen ones in Artist-Talent Management,
-                                Productions, Marketing, Promotions areas; direct
-                                involved and in-charge in several projects of
-                                Concerts in Indonesia.
-                              </p>
-                            </div>
+    <!-- Inner Section - Portfolio - Start -->
+    <section id="portfolio" class="inner inner-stack-bottom no-padding-top portfolio">
+      <div class="inner__wrapper">
+        <div class="container-fluid p-0">
+          <div class="row g-0">
+            <!-- Inner Section Content Start -->
+            <div class="col-12">
+              <div class="inner__content">
+                <!-- Content Block - Portfolio Stacking Cards Start -->
+                <div class="content__block">
+                  <div class="stack-wrapper">
+                    <div class="stack-offset solid-block"></div>
+                    <div class="portfolio-stack">
+                      <!-- portfolio stack single item -->
+                      <div class="stack-item">
+                        <div data-mfp-src="#" class="portfolio-stack__inner portfolio-item-1 popup-trigger">
+                          <div class="portfolio-stack__descr" style="width: 100%">
+                            <h3 class="portfolio-stack__title light">
+                              Event Management
+                            </h3>
+                            <p class="portfolio-stack__text type-basic-160lh light">
+                              Our team consist the best professionals and the
+                              chosen ones in Artist-Talent Management,
+                              Productions, Marketing, Promotions areas; direct
+                              involved and in-charge in several projects of
+                              Concerts in Indonesia.
+                            </p>
                           </div>
                         </div>
                       </div>
                     </div>
                   </div>
-                  <!-- Content Block - Portfolio Stacking Cards End -->
                 </div>
+                <!-- Content Block - Portfolio Stacking Cards End -->
               </div>
-              <!-- Inner Section Content End -->
             </div>
+            <!-- Inner Section Content End -->
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <!-- Inner Section - Portfolio - End -->
+    <!-- Inner Section - Portfolio - End -->
 
-      <!-- Inner Section - About - Start -->
-      <section id="about" class="inner inner-grid-bottom about">
-        <div class="inner__wrapper">
-          <div class="container-fluid p-0">
-            <div class="row g-0">
-              <!-- Inner Section Name Start -->
-              <div class="col-12 col-xl-2">
-                <div class="inner__name">
-                  <!-- Content Block - Section Name Start -->
-                  <div class="content__block name-block">
-                    <span class="section-name icon-right animate-in-up">
-                      <span class="section-name-caption">About Us</span>
-                      <i
-                        class="ph ph-arrow-down-right"
-                        style="font-size: 40px"
-                      ></i>
-                    </span>
-                  </div>
-                  <!-- Content Block - Section Name Start -->
+    <!-- Inner Section - About - Start -->
+    <section id="about" class="inner inner-grid-bottom about">
+      <div class="inner__wrapper">
+        <div class="container-fluid p-0">
+          <div class="row g-0">
+            <!-- Inner Section Name Start -->
+            <div class="col-12 col-xl-2">
+              <div class="inner__name">
+                <!-- Content Block - Section Name Start -->
+                <div class="content__block name-block">
+                  <span class="section-name icon-right animate-in-up">
+                    <span class="section-name-caption">About Us</span>
+                    <i class="ph ph-arrow-down-right" style="font-size: 40px"></i>
+                  </span>
                 </div>
+                <!-- Content Block - Section Name Start -->
               </div>
-              <!-- Inner Section Name End -->
+            </div>
+            <!-- Inner Section Name End -->
 
-              <!-- Inner Section Content Start -->
-              <div class="col-12 col-xl-8">
-                <div class="inner__content">
-                  <!-- Content Block - H2 Section Title Start -->
-                  <div class="content__block section-text-title">
-                    <div class="block__descr">
-                      <h2 class="reveal-type animate-in-up">About Us</h2>
-                    </div>
+            <!-- Inner Section Content Start -->
+            <div class="col-12 col-xl-8">
+              <div class="inner__content">
+                <!-- Content Block - H2 Section Title Start -->
+                <div class="content__block section-text-title">
+                  <div class="block__descr">
+                    <h2 class="reveal-type animate-in-up">About Us</h2>
                   </div>
-                  <!-- Content Block - H2 Section Title End -->
+                </div>
+                <!-- Content Block - H2 Section Title End -->
 
-                  <!-- Content Block - About Me Data Start -->
-                  <div class="content__block grid-block pre-grid-items">
-                    <div class="container-fluid p-0">
-                      <div class="row g-0 justify-content-between">
-                        <div
-                          class="col-12 col-md-8 col-lg-7 col-xxl-8 grid-item about-descr pre-title"
-                        >
-                          <p
-                            class="about-descr__text type-basic-160lh animate-in-up"
-                          >
-                            PREZTASI Live Entertainment as an
-                            <span style="color: green"
-                              >Entertainment Event Management</span
-                            >
-                            company who takes a consultive and innovative
-                            approach to design and deliver dynamic brand
-                            experiences through live events.
-                          </p>
-                          <p
-                            class="about-descr__text type-basic-160lh animate-in-up"
-                          >
-                            Event Planning, Concepts and Developments, Marketing
-                            Strategy to Production execution for various type of
-                            events; Indoors and Outdoors such as Exhibitions,
-                            Corporate Events, Launching Events, Press
-                            Conference, Gathering, Music Concerts and many more.
-                          </p>
-                        </div>
+                <!-- Content Block - About Me Data Start -->
+                <div class="content__block grid-block pre-grid-items">
+                  <div class="container-fluid p-0">
+                    <div class="row g-0 justify-content-between">
+                      <div class="col-12 col-md-8 col-lg-7 col-xxl-8 grid-item about-descr pre-title">
+                        <p class="about-descr__text type-basic-160lh animate-in-up">
+                          PREZTASI Live Entertainment as an
+                          <span style="color: green">Entertainment Event Management</span>
+                          company who takes a consultive and innovative
+                          approach to design and deliver dynamic brand
+                          experiences through live events.
+                        </p>
+                        <p class="about-descr__text type-basic-160lh animate-in-up">
+                          Event Planning, Concepts and Developments, Marketing
+                          Strategy to Production execution for various type of
+                          events; Indoors and Outdoors such as Exhibitions,
+                          Corporate Events, Launching Events, Press
+                          Conference, Gathering, Music Concerts and many more.
+                        </p>
+                      </div>
 
-                        <div
-                          class="col-12 col-md-4 col-xxl-3 grid-item about-info pre-title"
-                        >
-                          <img src="img/logo-kuning.svg" />
-                        </div>
+                      <div class="col-12 col-md-4 col-xxl-3 grid-item about-info pre-title">
+                        <img src="img/logo-kuning.svg" />
                       </div>
                     </div>
                   </div>
-                  <!-- Content Block - About Me Data End -->
                 </div>
+                <!-- Content Block - About Me Data End -->
               </div>
-              <!-- Inner Section Content End -->
-
-              <!-- Inner Section Aside Start -->
-              <div class="col-12 col-xl-2"></div>
-              <!-- Inner Section Aside End -->
             </div>
+            <!-- Inner Section Content End -->
+
+            <!-- Inner Section Aside Start -->
+            <div class="col-12 col-xl-2"></div>
+            <!-- Inner Section Aside End -->
           </div>
         </div>
-      </section>
-      <!-- Inner Section - About - End -->
+      </div>
+    </section>
+    <!-- Inner Section - About - End -->
 
-      <!-- Inner Section - Services - Start -->
-      <section id="services" class="inner inner-grid-bottom services">
-        <div class="inner__wrapper">
-          <div class="container-fluid p-0">
-            <div class="row g-0">
-              <!-- Inner Section Name Start -->
-              <div class="col-12 col-xl-2">
-                <div class="inner__name">
-                  <!-- Content Block - Section Name Start -->
-                  <div class="content__block name-block">
-                    <span class="section-name icon-right animate-in-up">
-                      <span class="section-name-caption">Services</span>
-                      <i
-                        class="ph ph-arrow-down-right"
-                        style="font-size: 40px"
-                      ></i>
-                    </span>
-                  </div>
-                  <!-- Content Block - Section Name Start -->
+    <!-- Inner Section - Services - Start -->
+    <section id="services" class="inner inner-grid-bottom services">
+      <div class="inner__wrapper">
+        <div class="container-fluid p-0">
+          <div class="row g-0">
+            <!-- Inner Section Name Start -->
+            <div class="col-12 col-xl-2">
+              <div class="inner__name">
+                <!-- Content Block - Section Name Start -->
+                <div class="content__block name-block">
+                  <span class="section-name icon-right animate-in-up">
+                    <span class="section-name-caption">Services</span>
+                    <i class="ph ph-arrow-down-right" style="font-size: 40px"></i>
+                  </span>
                 </div>
+                <!-- Content Block - Section Name Start -->
               </div>
-              <!-- Inner Section Name End -->
+            </div>
+            <!-- Inner Section Name End -->
 
-              <!-- Inner Section Content Start -->
-              <div class="col-12 col-xl-8">
-                <div class="inner__content">
-                  <!-- Content Block - H2 Section Title Start -->
-                  <div class="content__block section-grid-title">
-                    <div class="block__descr">
-                      <h2 class="reveal-type animate-in-up">Our Services</h2>
-                    </div>
+            <!-- Inner Section Content Start -->
+            <div class="col-12 col-xl-8">
+              <div class="inner__content">
+                <!-- Content Block - H2 Section Title Start -->
+                <div class="content__block section-grid-title">
+                  <div class="block__descr">
+                    <h2 class="reveal-type animate-in-up">Our Services</h2>
                   </div>
-                  <!-- Content Block - H2 Section Title End -->
+                </div>
+                <!-- Content Block - H2 Section Title End -->
 
-                  <!-- Content Block - Services/Features Cards V2 Block Start -->
-                  <div class="content__block grid-block">
-                    <div class="container-fluid p-0">
-                      <div class="row g-0 align-items-stretch cards">
-                        <!-- services cards grid single item -->
-                        <div
-                          class="col-12 col-md-3 cards__item grid-item animate-card-2"
-                        >
-                          <div class="cards__card d-flex flex-column">
-                            <div
-                              class="cards__descr"
-                              style="padding-left: 20px; padding-right: 20px"
-                            >
-                              <h4 class="cards__title animate-in-up">
-                                Music <br />Promoter
-                              </h4>
-                              <!-- <p
+                <!-- Content Block - Services/Features Cards V2 Block Start -->
+                <div class="content__block grid-block">
+                  <div class="container-fluid p-0">
+                    <div class="row g-0 align-items-stretch cards">
+                      <!-- services cards grid single item -->
+                      <div class="col-12 col-md-3 cards__item grid-item animate-card-2">
+                        <div class="cards__card d-flex flex-column">
+                          <div class="cards__descr" style="padding-left: 20px; padding-right: 20px">
+                            <h4 class="cards__title animate-in-up">
+                              Music <br />Promoter
+                            </h4>
+                            <!-- <p
                                 class="cards__text type-basic-160lh animate-in-up"
                               >
                                 Event execution as Music Promotor, Event
@@ -528,28 +442,20 @@
                                 Music Concerts, Festival and Bazaar (Indoor and
                                 Outdoor)
                               </p> -->
-                            </div>
-                            <div class="d-flex animate-in-up cards-image-01">
-                              <img
-                                src="img/icons/s-1.png"
-                                alt="Service/Feature Image"
-                              />
-                            </div>
+                          </div>
+                          <div class="d-flex animate-in-up cards-image-01">
+                            <img src="img/icons/s-1.png" alt="Service/Feature Image" />
                           </div>
                         </div>
-                        <!-- services grid cards single item -->
-                        <div
-                          class="col-12 col-md-3 cards__item grid-item animate-card-2"
-                        >
-                          <div class="cards__card d-flex flex-column">
-                            <div
-                              class="cards__descr"
-                              style="padding-left: 20px; padding-right: 20px"
-                            >
-                              <h4 class="cards__title animate-in-up">
-                                Event Management
-                              </h4>
-                              <!-- <p
+                      </div>
+                      <!-- services grid cards single item -->
+                      <div class="col-12 col-md-3 cards__item grid-item animate-card-2">
+                        <div class="cards__card d-flex flex-column">
+                          <div class="cards__descr" style="padding-left: 20px; padding-right: 20px">
+                            <h4 class="cards__title animate-in-up">
+                              Event Management
+                            </h4>
+                            <!-- <p
                                 class="cards__text type-basic-160lh animate-in-up"
                               >
                                 Campaign executions <br />
@@ -557,215 +463,161 @@
                                 side, content-making and <br />documentations
                                 and also to selected media exposures
                               </p> -->
-                            </div>
-                            <div class="d-flex animate-in-up cards-image-01">
-                              <img
-                                src="img/icons/s-2.png"
-                                alt="Service/Feature Image"
-                              />
-                            </div>
+                          </div>
+                          <div class="d-flex animate-in-up cards-image-01">
+                            <img src="img/icons/s-2.png" alt="Service/Feature Image" />
                           </div>
                         </div>
-                        <!-- services grid cards single item -->
-                        <div
-                          class="col-12 col-md-3 cards__item grid-item animate-card-2"
-                        >
-                          <div class="cards__card d-flex flex-column">
-                            <div
-                              class="cards__descr"
-                              style="padding-left: 20px; padding-right: 20px"
-                            >
-                              <h4 class="cards__title animate-in-up">
-                                Talent & Artist Agency
-                              </h4>
-                              <!-- <p
+                      </div>
+                      <!-- services grid cards single item -->
+                      <div class="col-12 col-md-3 cards__item grid-item animate-card-2">
+                        <div class="cards__card d-flex flex-column">
+                          <div class="cards__descr" style="padding-left: 20px; padding-right: 20px">
+                            <h4 class="cards__title animate-in-up">
+                              Talent & Artist Agency
+                            </h4>
+                            <!-- <p
                                 class="cards__text type-basic-160lh animate-in-up"
                               >
                                 Lorem ipsum dolor sit amet, consectetur
                                 adipiscing elit, sed do eiusmod tempor
                                 incididunt ut labore et dolore magna aliqua.
                               </p> -->
-                            </div>
-                            <div
-                              class="cards__image d-flex animate-in-up cards-image-01"
-                            >
-                              <img
-                                src="img/icons/s-3.png"
-                                alt="Service/Feature Image"
-                              />
-                            </div>
+                          </div>
+                          <div class="cards__image d-flex animate-in-up cards-image-01">
+                            <img src="img/icons/s-3.png" alt="Service/Feature Image" />
                           </div>
                         </div>
-                        <!-- services grid cards single item -->
-                        <div
-                          class="col-12 col-md-3 cards__item grid-item animate-card-2"
-                        >
-                          <div class="cards__card d-flex flex-column">
-                            <div
-                              class="cards__descr"
-                              style="padding-left: 20px; padding-right: 20px"
-                            >
-                              <h4 class="cards__title animate-in-up">
-                                Creative & PR Agency
-                              </h4>
-                              <!-- <p
+                      </div>
+                      <!-- services grid cards single item -->
+                      <div class="col-12 col-md-3 cards__item grid-item animate-card-2">
+                        <div class="cards__card d-flex flex-column">
+                          <div class="cards__descr" style="padding-left: 20px; padding-right: 20px">
+                            <h4 class="cards__title animate-in-up">
+                              Creative & PR Agency
+                            </h4>
+                            <!-- <p
                                 class="cards__text type-basic-160lh animate-in-up"
                               >
                                 Lorem ipsum dolor sit amet, consectetur
                                 adipiscing elit, sed do eiusmod tempor
                                 incididunt ut labore et dolore magna aliqua.
                               </p> -->
-                            </div>
-                            <div
-                              class="cards__image d-flex animate-in-up cards-image-01"
-                            >
-                              <img
-                                src="img/icons/s-4.png"
-                                alt="Service/Feature Image"
-                              />
-                            </div>
+                          </div>
+                          <div class="cards__image d-flex animate-in-up cards-image-01">
+                            <img src="img/icons/s-4.png" alt="Service/Feature Image" />
                           </div>
                         </div>
                       </div>
                     </div>
                   </div>
-                  <!-- Content Block - Services/Features Cards V2 Block End -->
                 </div>
+                <!-- Content Block - Services/Features Cards V2 Block End -->
               </div>
-              <!-- Inner Section Content End -->
-
-              <!-- Inner Section Aside Start -->
-              <div class="col-12 col-xl-2"></div>
-              <!-- Inner Section Aside End -->
             </div>
+            <!-- Inner Section Content End -->
+
+            <!-- Inner Section Aside Start -->
+            <div class="col-12 col-xl-2"></div>
+            <!-- Inner Section Aside End -->
           </div>
         </div>
-      </section>
-      <!-- Inner Section - Services - End -->
+      </div>
+    </section>
+    <!-- Inner Section - Services - End -->
 
-      <!-- Inner Section - Resume - Start -->
-      <section id="projects" class="inner inner-type-bottom resume">
-        <div class="inner__wrapper">
-          <div class="container-fluid p-0">
-            <div class="row g-0">
-              <!-- Inner Section Name Start -->
-              <div class="col-12 col-xl-2">
-                <div class="inner__name">
-                  <!-- Content Block - Section Name Start -->
-                  <div class="content__block name-block">
-                    <span class="section-name icon-right animate-in-up">
-                      <span class="section-name-caption">Projects</span>
-                      <i
-                        class="ph ph-arrow-down-right"
-                        style="font-size: 40px"
-                      ></i>
-                    </span>
-                  </div>
-                  <!-- Content Block - Section Name Start -->
+    <!-- Inner Section - Resume - Start -->
+    <section id="projects" class="inner inner-type-bottom resume">
+      <div class="inner__wrapper">
+        <div class="container-fluid p-0">
+          <div class="row g-0">
+            <!-- Inner Section Name Start -->
+            <div class="col-12 col-xl-2">
+              <div class="inner__name">
+                <!-- Content Block - Section Name Start -->
+                <div class="content__block name-block">
+                  <span class="section-name icon-right animate-in-up">
+                    <span class="section-name-caption">Projects</span>
+                    <i class="ph ph-arrow-down-right" style="font-size: 40px"></i>
+                  </span>
                 </div>
+                <!-- Content Block - Section Name Start -->
               </div>
-              <!-- Inner Section Name End -->
+            </div>
+            <!-- Inner Section Name End -->
 
-              <!-- Inner Section Content Start -->
-              <div class="col-12 col-xl-8">
-                <div class="inner__content">
-                  <!-- Content Block - H2 Section Title Start -->
-                  <div class="content__block section-tagline-title">
-                    <div class="block__descr">
-                      <h2 class="reveal-type animate-in-up">
-                        Incoming Projects
-                      </h2>
-                    </div>
+            <!-- Inner Section Content Start -->
+            <div class="col-12 col-xl-8">
+              <div class="inner__content">
+                <!-- Content Block - H2 Section Title Start -->
+                <div class="content__block section-tagline-title">
+                  <div class="block__descr">
+                    <h2 class="reveal-type animate-in-up">
+                      Incoming Projects
+                    </h2>
                   </div>
-                  <!-- Content Block - H2 Section Title End -->
+                </div>
+                <!-- Content Block - H2 Section Title End -->
 
-                  <!-- Content Block - Testimonials Start -->
-                  <div class="content__block">
-                    <!-- Section Subtitle Start -->
-                    <div class="block__subtitle">
-                      <p class="tagline-chapter animate-in-up">
-                        Minzy Night Out
-                      </p>
-                    </div>
-                    <!-- Section Subtitle End -->
+                <!-- Content Block - Testimonials Start -->
+                <div class="content__block">
+                  <!-- Section Subtitle Start -->
+                  <div class="block__subtitle">
+                    <p class="tagline-chapter animate-in-up">
+                      Minzy Night Out
+                    </p>
+                  </div>
+                  <!-- Section Subtitle End -->
 
-                    <!-- Testimonials Slider Start -->
-                    <div class="testimonials-slider">
-                      <!-- slider main container -->
-                      <div class="swiper-testimonials">
-                        <!-- additional required wrapper -->
-                        <div class="swiper-wrapper">
-                          <!-- single slide -->
-                          <div class="swiper-slide">
-                            <div
-                              class="testimonials-card animate-in-up"
-                              style="height: fit-content"
-                            >
-                              <div class="container-fluid p-0 fullheight-l">
-                                <div
-                                  class="row g-0 d-flex align-items-stretch fullheight-l"
-                                >
-                                  <div
-                                    class="col-12 col-lg-6 testimonials-card__tdata"
-                                  >
-                                    <div
-                                      class="testimonials-card__tauthor d-flex"
-                                    >
-                                      <div
-                                        class="tauthor__avatar animate-in-up"
-                                      >
-                                        <img
-                                          src="img/avatars/400x400_t01.webp"
-                                          alt="Projects Image"
-                                        />
-                                      </div>
-                                      <div
-                                        class="tauthor__info d-flex flex-column justify-content-center"
-                                      >
-                                        <h4 class="tauthor__name animate-in-up">
-                                          Minzy (2NE1)
-                                        </h4>
-                                        <p
-                                          class="tauthor__position small animate-in-up"
-                                        >
-                                          member of
-                                          <a
-                                            class="link-small-underline"
-                                            href="https://www.youtube.com/@2NE1"
-                                            target="_blank"
-                                          >
-                                            K-POP group 2NE1
-                                          </a>
-                                        </p>
-                                      </div>
+                  <!-- Testimonials Slider Start -->
+                  <div class="testimonials-slider">
+                    <!-- slider main container -->
+                    <div class="swiper-testimonials">
+                      <!-- additional required wrapper -->
+                      <div class="swiper-wrapper">
+                        <!-- single slide -->
+                        <div class="swiper-slide">
+                          <div class="testimonials-card animate-in-up" style="height: fit-content">
+                            <div class="container-fluid p-0 fullheight-l">
+                              <div class="row g-0 d-flex align-items-stretch fullheight-l">
+                                <div class="col-12 col-lg-6 testimonials-card__tdata">
+                                  <div class="testimonials-card__tauthor d-flex">
+                                    <div class="tauthor__avatar animate-in-up">
+                                      <img src="img/avatars/400x400_t01.webp" alt="Projects Image" />
                                     </div>
-                                    <div
-                                      class="testimonials-card__descr animate-in-up"
-                                    >
-                                      <p class="type-basic-160lh">
-                                        Known as one of the Best Dancers in
-                                        K-Pop Industry. Having a background as
-                                        Hip Hop Dancer and won numerous dance
-                                        competitions since she was a kid.
-                                        Collect many awards including Mnet Asian
-                                        Music Awards dan Golden Disc Awards.
-                                      </p>
-                                      <div
-                                        class="btn-group about-descr__btnholder animate-in-up"
-                                      >
-                                        <a
-                                          class="btn btn-default hover-default button-3d"
-                                          href="https://www.minzynightout.com/"
-                                          target="_blank"
-                                        >
-                                          <em></em>
-                                          <span class="btn-caption">
-                                            Buy Ticket
-                                          </span>
+                                    <div class="tauthor__info d-flex flex-column justify-content-center">
+                                      <h4 class="tauthor__name animate-in-up">
+                                        Minzy (2NE1)
+                                      </h4>
+                                      <p class="tauthor__position small animate-in-up">
+                                        member of
+                                        <a class="link-small-underline" href="https://www.youtube.com/@2NE1"
+                                          target="_blank">
+                                          K-POP group 2NE1
                                         </a>
-                                      </div>
+                                      </p>
                                     </div>
-                                    <!-- <div
+                                  </div>
+                                  <div class="testimonials-card__descr animate-in-up">
+                                    <p class="type-basic-160lh">
+                                      Known as one of the Best Dancers in
+                                      K-Pop Industry. Having a background as
+                                      Hip Hop Dancer and won numerous dance
+                                      competitions since she was a kid.
+                                      Collect many awards including Mnet Asian
+                                      Music Awards dan Golden Disc Awards.
+                                    </p>
+                                    <div class="btn-group about-descr__btnholder animate-in-up">
+                                      <a class="btn btn-default hover-default button-3d"
+                                        href="https://www.minzynightout.com/" target="_blank">
+                                        <em></em>
+                                        <span class="btn-caption">
+                                          Buy Ticket
+                                        </span>
+                                      </a>
+                                    </div>
+                                  </div>
+                                  <!-- <div
                                       class="testimonials-card__btnholder animate-in-up"
                                     >
                                       <div
@@ -783,146 +635,114 @@
                                         </a>
                                       </div>
                                     </div> -->
-                                  </div>
-                                  <div
-                                    class="col-12 col-lg-6 testimonials-card__timage fullheight-l"
-                                  >
-                                    <div
-                                      class="timage__inner fullheight-l animate-in-up"
-                                    >
-                                      <img
-                                        src="img/projects/1400x1200_t01.webp"
-                                        alt="Projects Image"
-                                      />
-                                    </div>
+                                </div>
+                                <div class="col-12 col-lg-6 testimonials-card__timage fullheight-l">
+                                  <div class="timage__inner fullheight-l animate-in-up">
+                                    <img src="img/projects/1400x1200_t01.webp" alt="Projects Image" />
                                   </div>
                                 </div>
                               </div>
                             </div>
                           </div>
-                          <!-- single slide -->
                         </div>
-                        <!-- navigation buttons -->
-                        <div
-                          class="swiper-button-prev mxd-slider-btn mxd-slider-btn-square-prev animate-in-up"
-                        >
-                          <a
-                            class="btn btn-line icon-left slide-left"
-                            href="#0"
-                          >
-                            <i class="ph ph-arrow-left"></i>
-                            <span class="btn-caption">Prev</span>
-                          </a>
-                        </div>
-                        <div
-                          class="swiper-button-next mxd-slider-btn mxd-slider-btn-square-next animate-in-up"
-                        >
-                          <a
-                            class="btn btn-line icon-right slide-right"
-                            href="#0"
-                          >
-                            <span class="btn-caption">Next</span>
-                            <i class="ph ph-arrow-right"></i>
-                          </a>
-                        </div>
-                        <!-- pagination -->
-                        <div
-                          class="swiper-pagination mxd-swiper-pagination-fraction"
-                        ></div>
+                        <!-- single slide -->
                       </div>
+                      <!-- navigation buttons -->
+                      <div class="swiper-button-prev mxd-slider-btn mxd-slider-btn-square-prev animate-in-up">
+                        <a class="btn btn-line icon-left slide-left" href="#0">
+                          <i class="ph ph-arrow-left"></i>
+                          <span class="btn-caption">Prev</span>
+                        </a>
+                      </div>
+                      <div class="swiper-button-next mxd-slider-btn mxd-slider-btn-square-next animate-in-up">
+                        <a class="btn btn-line icon-right slide-right" href="#0">
+                          <span class="btn-caption">Next</span>
+                          <i class="ph ph-arrow-right"></i>
+                        </a>
+                      </div>
+                      <!-- pagination -->
+                      <div class="swiper-pagination mxd-swiper-pagination-fraction"></div>
                     </div>
-                    <!-- Testimonials Slider End -->
                   </div>
-                  <!-- Content Block - Testimonials End -->
+                  <!-- Testimonials Slider End -->
                 </div>
+                <!-- Content Block - Testimonials End -->
               </div>
-              <!-- Inner Section Content End -->
-
-              <!-- Inner Section Aside Start -->
-              <div class="col-12 col-xl-2"></div>
-              <!-- Inner Section Aside End -->
             </div>
+            <!-- Inner Section Content End -->
+
+            <!-- Inner Section Aside Start -->
+            <div class="col-12 col-xl-2"></div>
+            <!-- Inner Section Aside End -->
           </div>
         </div>
-      </section>
-      <!-- Inner Section - Resume - End -->
+      </div>
+    </section>
+    <!-- Inner Section - Resume - End -->
 
-      <!-- Inner Section - Contact - Start -->
-      <section
-        id="contact"
-        class="inner contact inner-grid-bottom no-padding-bottom"
-      >
-        <div class="inner__wrapper">
-          <div class="container-fluid p-0">
-            <div class="row g-0">
-              <!-- Inner Section Name Start -->
-              <div class="col-12 col-xl-2">
-                <div class="inner__name">
-                  <!-- Content Block - Section Name Start -->
-                  <div class="content__block name-block">
-                    <span class="section-name icon-right animate-in-up">
-                      <span class="section-name-caption">Contact</span>
-                      <i
-                        class="ph ph-arrow-down-right"
-                        style="font-size: 40px"
-                      ></i>
-                    </span>
-                  </div>
-                  <!-- Content Block - Section Name Start -->
+    <!-- Inner Section - Contact - Start -->
+    <section id="contact" class="inner contact inner-grid-bottom no-padding-bottom">
+      <div class="inner__wrapper">
+        <div class="container-fluid p-0">
+          <div class="row g-0">
+            <!-- Inner Section Name Start -->
+            <div class="col-12 col-xl-2">
+              <div class="inner__name">
+                <!-- Content Block - Section Name Start -->
+                <div class="content__block name-block">
+                  <span class="section-name icon-right animate-in-up">
+                    <span class="section-name-caption">Contact</span>
+                    <i class="ph ph-arrow-down-right" style="font-size: 40px"></i>
+                  </span>
                 </div>
+                <!-- Content Block - Section Name Start -->
               </div>
-              <!-- Inner Section Name End -->
+            </div>
+            <!-- Inner Section Name End -->
 
-              <!-- Inner Section Content Start -->
-              <div class="col-12 col-xl-8">
-                <div class="inner__content">
-                  <!-- Content Block - H2 Section Title Start -->
-                  <div class="content__block section-form-title">
-                    <div class="block__descr">
-                      <h2 class="reveal-type animate-in-up">Contact Us!</h2>
-                      <p class="h2__text type-basic-160lh animate-in-up">
-                        Want to know more about project? Drop us a line and
-                        we'll get back as soon as possible.
-                      </p>
-                      <p class="h2__text type-basic-160lh animate-in-up">
-                        Send email to:
-                        <a href="mailto:info@preztasilive.com">
-                          info@preztasilive.com
-                        </a>
-                      </p>
-                    </div>
+            <!-- Inner Section Content Start -->
+            <div class="col-12 col-xl-8">
+              <div class="inner__content">
+                <!-- Content Block - H2 Section Title Start -->
+                <div class="content__block section-form-title">
+                  <div class="block__descr">
+                    <h2 class="reveal-type animate-in-up">Contact Us!</h2>
+                    <p class="h2__text type-basic-160lh animate-in-up">
+                      Want to know more about project? Drop us a line and
+                      we'll get back as soon as possible.
+                    </p>
+                    <p class="h2__text type-basic-160lh animate-in-up">
+                      Send email to:
+                      <a href="mailto:info@preztasilive.com">
+                        info@preztasilive.com
+                      </a>
+                    </p>
                   </div>
-                  <!-- Content Block - H2 Section Title End -->
+                </div>
+                <!-- Content Block - H2 Section Title End -->
 
-                  <!-- Content Block - Contact Form Start -->
+                <!-- Content Block - Contact Form Start -->
 
-                  <!-- =================== -->
-                  <!-- =================== -->
-                  <!-- =================== -->
-                  <!-- =================== -->
+                <!-- =================== -->
+                <!-- =================== -->
+                <!-- =================== -->
+                <!-- =================== -->
 
-                  <!-- Content Block - Contact Form End -->
+                <!-- Content Block - Contact Form End -->
 
-                  <!-- Content Block - Socials Cards Start -->
-                  <div class="content__block grid-block">
-                    <ul
-                      class="socials-cards d-flex justify-content-start flex-wrap"
-                    >
-                      <!-- socials cards single item -->
-                      <li
-                        class="socials-cards__item grid-item d-flex animate-card-5"
-                      >
-                        <a
-                          class="socials-cards__link d-flex align-items-center justify-content-center"
-                          href="https://www.instagram.com/preztasilive/"
-                          target="_blank"
-                        >
-                          <em></em>
-                          <i class="ph ph-instagram-logo"></i>
-                        </a>
-                      </li>
-                      <!-- socials cards single item -->
-                      <!-- <li
+                <!-- Content Block - Socials Cards Start -->
+                <div class="content__block grid-block">
+                  <ul class="socials-cards d-flex justify-content-start flex-wrap">
+                    <!-- socials cards single item -->
+                    <li class="socials-cards__item grid-item d-flex animate-card-5">
+                      <a class="socials-cards__link d-flex align-items-center justify-content-center"
+                        href="https://www.instagram.com/preztasilive/" target="_blank">
+                        <em></em>
+                        <i class="ph ph-instagram-logo"></i>
+                      </a>
+                    </li>
+                    <!-- socials cards single item -->
+                    <!-- <li
                         class="socials-cards__item grid-item d-flex animate-card-5"
                       >
                         <a
@@ -934,21 +754,16 @@
                           <i class="ph ph-facebook-logo"></i>
                         </a>
                       </li> -->
-                      <!-- socials cards single item -->
-                      <li
-                        class="socials-cards__item grid-item d-flex animate-card-5"
-                      >
-                        <a
-                          class="socials-cards__link d-flex align-items-center justify-content-center"
-                          href="https://www.tiktok.com/@preztasilive"
-                          target="_blank"
-                        >
-                          <em></em>
-                          <i class="ph ph-tiktok-logo"></i>
-                        </a>
-                      </li>
-                      <!-- socials cards single item -->
-                      <!-- <li
+                    <!-- socials cards single item -->
+                    <li class="socials-cards__item grid-item d-flex animate-card-5">
+                      <a class="socials-cards__link d-flex align-items-center justify-content-center"
+                        href="https://www.tiktok.com/@preztasilive" target="_blank">
+                        <em></em>
+                        <i class="ph ph-tiktok-logo"></i>
+                      </a>
+                    </li>
+                    <!-- socials cards single item -->
+                    <!-- <li
                         class="socials-cards__item grid-item d-flex animate-card-5"
                       >
                         <a
@@ -960,8 +775,8 @@
                           <i class="ph ph-youtube-logo"></i>
                         </a>
                       </li> -->
-                      <!-- socials cards single item -->
-                      <!-- <li
+                    <!-- socials cards single item -->
+                    <!-- <li
                         class="socials-cards__item grid-item d-flex animate-card-5"
                       >
                         <a
@@ -973,196 +788,163 @@
                           <i class="fa-brands fa-x-twitter"></i>
                         </a>
                       </li> -->
-                    </ul>
-                  </div>
-                  <!-- Content Block - Socials Cards End -->
+                  </ul>
+                </div>
+                <!-- Content Block - Socials Cards End -->
 
-                  <!-- Footer Start -->
-                  <footer class="footer">
-                    <div class="container-fluid p-0">
-                      <div class="row g-0">
-                        <div class="col-12">
-                          <!-- Content Block - Footer Email Link Start -->
-                          <div class="content__block pre-grid-items">
-                            <!-- footer email link -->
-                            <div
-                              class="footer__link d-flex flex-column flex-md-row justify-content-md-between align-items-md-center"
-                            >
-                              <div
-                                class="footer__text reveal-type animate-in-up"
-                              >
-                                Got an idea?<br />Tell us!
-                              </div>
-                              <div class="footer__btn animate-in-up">
-                                <a
-                                  href="mailto:info@preztasilive.com?subject=Message%20from%20website"
-                                  class="btn btn-circle-icon hover-circle button-3d"
-                                >
-                                  <em></em>
-                                  <i class="ph-light ph-arrow-right"></i>
-                                </a>
-                              </div>
+                <!-- Footer Start -->
+                <footer class="footer">
+                  <div class="container-fluid p-0">
+                    <div class="row g-0">
+                      <div class="col-12">
+                        <!-- Content Block - Footer Email Link Start -->
+                        <div class="content__block pre-grid-items">
+                          <!-- footer email link -->
+                          <div
+                            class="footer__link d-flex flex-column flex-md-row justify-content-md-between align-items-md-center">
+                            <div class="footer__text reveal-type animate-in-up">
+                              Got an idea?<br />Tell us!
                             </div>
-                            <!-- footer divider line -->
-                            <div class="footer__divider animate-in-up"></div>
-                          </div>
-
-                          <!-- Content Block - Copyright -->
-                          <div class="content__block grid-block">
-                            <div class="container-fluid p-0 contact-data">
-                              <div class="row g-0">
-                                <div
-                                  class="col-12 contact-data__item grid-item"
-                                >
-                                  <p
-                                    class="contact-data__text small type-basic-160lh"
-                                  >
-                                    All Rights Reserved; &#169; copyright
-                                    <span id="currentYear"></span> Preztasi Live
-                                    Entertainment
-                                  </p>
-                                </div>
-                              </div>
+                            <div class="footer__btn animate-in-up">
+                              <a href="mailto:info@preztasilive.com?subject=Message%20from%20website"
+                                class="btn btn-circle-icon hover-circle button-3d">
+                                <em></em>
+                                <i class="ph-light ph-arrow-right"></i>
+                              </a>
                             </div>
                           </div>
-                          <!-- Content Block - Copyright -->
-
-                          <!-- Content Block - Footer Email Link End -->
+                          <!-- footer divider line -->
+                          <div class="footer__divider animate-in-up"></div>
                         </div>
+
+                        <!-- Content Block - Copyright -->
+                        <div class="content__block grid-block">
+                          <div class="container-fluid p-0 contact-data">
+                            <div class="row g-0">
+                              <div class="col-12 contact-data__item grid-item">
+                                <p class="contact-data__text small type-basic-160lh">
+                                  All Rights Reserved &#169; copyright
+                                  <!-- <span id="currentYear"></span>  --> 2025
+                                  Preztasi Live
+                                  Entertainment
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- Content Block - Copyright -->
+
+                        <!-- Content Block - Footer Email Link End -->
                       </div>
                     </div>
-                  </footer>
-                  <!-- Footer End -->
-                </div>
+                  </div>
+                </footer>
+                <!-- Footer End -->
               </div>
-              <!-- Inner Section Content End -->
-
-              <!-- Inner Section Aside Start -->
-              <div class="col-12 col-xl-2"></div>
-              <!-- Inner Section Aside End -->
             </div>
+            <!-- Inner Section Content End -->
+
+            <!-- Inner Section Aside Start -->
+            <div class="col-12 col-xl-2"></div>
+            <!-- Inner Section Aside End -->
           </div>
         </div>
-      </section>
-      <!-- Inner Section - Contact - End -->
-
-      <!-- Main Section End -->
-    </main>
-
-    <!-- Bottom Background Images Start -->
-    <div class="bottom__background bottom-bg-02">
-      <div class="bottom-bg-02__02 animate-card-2">
-        <img
-          src="img/backgrounds/1200x1553_bg04.webp"
-          alt="Template background image"
-        />
       </div>
-      <div class="bottom-bg-02__01 animate-card-2">
-        <img
-          src="img/backgrounds/1200x1200_bg05.webp"
-          alt="Template background image"
-        />
-      </div>
+    </section>
+    <!-- Inner Section - Contact - End -->
+
+    <!-- Main Section End -->
+  </main>
+
+  <!-- Bottom Background Images Start -->
+  <div class="bottom__background bottom-bg-02">
+    <div class="bottom-bg-02__02 animate-card-2">
+      <img src="img/backgrounds/1200x1553_bg04.webp" alt="Template background image" />
     </div>
-    <!-- Bottom Background Images End -->
+    <div class="bottom-bg-02__01 animate-card-2">
+      <img src="img/backgrounds/1200x1200_bg05.webp" alt="Template background image" />
+    </div>
+  </div>
+  <!-- Bottom Background Images End -->
 
-    <!-- Mobile Menu Bottom Placeholder Start -->
-    <div class="header-offset"></div>
-    <!-- Mobile Menu Bottom Placeholder End -->
+  <!-- Mobile Menu Bottom Placeholder Start -->
+  <div class="header-offset"></div>
+  <!-- Mobile Menu Bottom Placeholder End -->
 
-    <!-- To Top Button Start -->
-    <a href="#0" id="to-top" class="btn btn-to-top slide-up">
-      <i class="ph ph-arrow-up"></i>
-    </a>
-    <!-- To Top Button End -->
+  <!-- To Top Button Start -->
+  <a href="#0" id="to-top" class="btn btn-to-top slide-up">
+    <i class="ph ph-arrow-up"></i>
+  </a>
+  <!-- To Top Button End -->
 
-    <!-- Root element of PhotoSwipe. Must have class pswp. -->
-    <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
-      <!-- Background of PhotoSwipe.
+  <!-- Root element of PhotoSwipe. Must have class pswp. -->
+  <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+    <!-- Background of PhotoSwipe.
       It's a separate element, as animating opacity is faster than rgba(). -->
-      <div class="pswp__bg"></div>
+    <div class="pswp__bg"></div>
 
-      <!-- Slides wrapper with overflow:hidden. -->
-      <div class="pswp__scroll-wrap">
-        <!-- Container that holds slides. PhotoSwipe keeps only 3 slides in DOM to save memory. -->
-        <!-- don't modify these 3 pswp__item elements, data is added later on. -->
-        <div class="pswp__container">
-          <div class="pswp__item"></div>
-          <div class="pswp__item"></div>
-          <div class="pswp__item"></div>
-        </div>
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+      <!-- Container that holds slides. PhotoSwipe keeps only 3 slides in DOM to save memory. -->
+      <!-- don't modify these 3 pswp__item elements, data is added later on. -->
+      <div class="pswp__container">
+        <div class="pswp__item"></div>
+        <div class="pswp__item"></div>
+        <div class="pswp__item"></div>
+      </div>
 
-        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
-        <div class="pswp__ui pswp__ui--hidden">
-          <div class="pswp__top-bar">
-            <!--  Controls are self-explanatory. Order can be changed. -->
+      <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+      <div class="pswp__ui pswp__ui--hidden">
+        <div class="pswp__top-bar">
+          <!--  Controls are self-explanatory. Order can be changed. -->
 
-            <div class="pswp__counter"></div>
+          <div class="pswp__counter"></div>
 
-            <button
-              class="pswp__button pswp__button--close link-s"
-              title="Close (Esc)"
-            ></button>
+          <button class="pswp__button pswp__button--close link-s" title="Close (Esc)"></button>
 
-            <button
-              class="pswp__button pswp__button--share link-s"
-              title="Share"
-            ></button>
+          <button class="pswp__button pswp__button--share link-s" title="Share"></button>
 
-            <button
-              class="pswp__button pswp__button--fs link-s"
-              title="Toggle fullscreen"
-            ></button>
+          <button class="pswp__button pswp__button--fs link-s" title="Toggle fullscreen"></button>
 
-            <button
-              class="pswp__button pswp__button--zoom link-s"
-              title="Zoom in/out"
-            ></button>
+          <button class="pswp__button pswp__button--zoom link-s" title="Zoom in/out"></button>
 
-            <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
-            <!-- element will get class pswp__preloader-active when preloader is running -->
-            <div class="pswp__preloader">
-              <div class="pswp__preloader__icn">
-                <div class="pswp__preloader__cut">
-                  <div class="pswp__preloader__donut"></div>
-                </div>
+          <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+          <!-- element will get class pswp__preloader-active when preloader is running -->
+          <div class="pswp__preloader">
+            <div class="pswp__preloader__icn">
+              <div class="pswp__preloader__cut">
+                <div class="pswp__preloader__donut"></div>
               </div>
             </div>
           </div>
+        </div>
 
-          <div
-            class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap"
-          >
-            <div class="pswp__share-tooltip"></div>
-          </div>
+        <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+          <div class="pswp__share-tooltip"></div>
+        </div>
 
-          <button
-            class="pswp__button pswp__button--arrow--left link-s"
-            title="Previous (arrow left)"
-          ></button>
+        <button class="pswp__button pswp__button--arrow--left link-s" title="Previous (arrow left)"></button>
 
-          <button
-            class="pswp__button pswp__button--arrow--right link-s"
-            title="Next (arrow right)"
-          ></button>
+        <button class="pswp__button pswp__button--arrow--right link-s" title="Next (arrow right)"></button>
 
-          <div class="pswp__caption">
-            <div class="pswp__caption__center"></div>
-          </div>
+        <div class="pswp__caption">
+          <div class="pswp__caption__center"></div>
         </div>
       </div>
     </div>
+  </div>
 
-    <!-- Load Scripts Start -->
-    <script src="js/libs.min.js"></script>
-    <script src="js/gallery-init.js"></script>
-    <script src="js/app.js"></script>
-    <!-- Load Scripts End -->
-    <script>
-      document.addEventListener("DOMContentLoaded", function () {
-        var currentYear = new Date().getFullYear();
-        document.getElementById("currentYear").textContent = currentYear;
-      });
-    </script>
-  </body>
+  <!-- Load Scripts Start -->
+  <script src="js/libs.min.js"></script>
+  <script src="js/gallery-init.js"></script>
+  <script src="js/app.js"></script>
+  <!-- Load Scripts End -->
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      var currentYear = new Date().getFullYear();
+      document.getElementById("currentYear").textContent = currentYear;
+    });
+  </script>
+</body>
+
 </html>
